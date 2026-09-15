@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #0f0e17;
+  color: #fffffe;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contadores {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.contador-card {
+  background-color: #16161e;
+  padding: 1rem 1.8rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #2a2a3e;
+  min-width: 90px;
+}
+
+.contador-card span {
+  font-size: 0.85rem;
+  color: #a7a9be;
+}
+
+.contador-card strong {
+  font-size: 1.6rem;
+  margin-top: 0.2rem;
+}
+
+.contador-card.assistidos strong {
+  color: #2ed573;
+}
+
+.contador-card.pendentes strong {
+  color: #ff4757;
+}
+
+.grid-filmes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}

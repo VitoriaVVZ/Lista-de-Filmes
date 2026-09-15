@@ -1,0 +1,79 @@
+.card-filme {
+  background-color: #22223b;
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.card-filme.assistido {
+  border-color: #2ed573;
+  background-color: #1b2a21;
+}
+
+.card-filme.pendente {
+  border-color: #ff4757;
+  background-color: #2a1b20;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.badge-genero {
+  background-color: #4a4e69;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.card-body p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.text-assistido {
+  color: #2ed573;
+}
+
+.text-pendente {
+  color: #ff4757;
+}
+
+.btn-status {
+  margin-top: 1.2rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+.btn-status:active {
+  transform: scale(0.98);
+}
+
+.btn-assistido {
+  background-color: #2ed573;
+  color: #000;
+}
+
+.btn-pendente {
+  background-color: #ffa502;
+  color: #000;
+}
